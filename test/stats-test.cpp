@@ -1,6 +1,7 @@
 #include "../src/stats.h"
 
 #include "gtest/gtest.h"
+#include <climits>
 #include <math.h>
 
 TEST(Statistics, ReportsAverageMinMax) {
